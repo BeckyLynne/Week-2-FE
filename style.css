@@ -1,0 +1,80 @@
+
+body {
+background-image: url(https://miamifruit.org/cdn/shop/products/ordergrosmichelbananasonline_900x.jpg?v=1601569212);
+font-style: italic;
+color: rgb(232, 243, 243);
+}
+
+h1 {
+    color: rgb(246, 240, 244);
+}
+div {
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+h2 {
+    color: aliceblue;
+    text-shadow: rgb(7, 7, 7) 3px 3px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.shadow-text {
+    text-shadow: rgb(7, 7, 7) 3px 3px;
+}
+
+table {
+    border: 1px solid;
+    font-size: larger;
+    color:rgb(0, 9, 9);
+    text-shadow: aliceblue 1px 1px;
+    background-color: aquamarine;
+}
+
+#large-paragraph {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#example{
+    color: gray;
+    background-color: blue;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: red;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+}
+
+.hov {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.hov:hover {
+    background-color: red;
+}
+
+.every-even li:nth-child(even){
+    background-color: red;
+}
+
+.every-third li:nth-child(3n){
+    background-color: red;
+}
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color: rgb(8, 8, 9);
+
+}
