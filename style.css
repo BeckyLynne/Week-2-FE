@@ -20,54 +20,31 @@ h2 {
     text-shadow: rgb(7, 7, 7) 3px 3px;
 }
 
-h2 {
-    color: aliceblue;
-}
-
 .shadow-text {
     text-shadow: rgb(7, 7, 7) 3px 3px;
 }
 
+p {
+    font-size: 30px;
+    color: black;
+    background-color: aliceblue;
+}
+
 table {
     border: 1px solid;
-    font-size: larger;
+    font-size: medium;
     color:rgb(0, 9, 9);
     text-shadow: aliceblue 1px 1px;
     background-color: aquamarine;
 }
 
-#large-paragraph {
-    font-size: 30px;
-    color: aliceblue;
-}
-
-#example{
-    color: gray;
-    background-color: blue;
-    border-style: dotted;
-    border-width: 3px;
-    border-color: red;
-    border-radius: 5px;
-    height: 200px;
-    text-align: center;
-}
-
-.hov {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-}
-
-.hov:hover {
-    background-color: red;
-}
-
-.every-even li:nth-child(even){
-    background-color: red;
-}
-
-.every-third li:nth-child(3n){
-    background-color: red;
+td, th {
+    width: 50%;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    font-style: italic;
+    color: black;
 }
 
 #box-model {
@@ -75,6 +52,5 @@ table {
     border-style: solid;
     border-width: 3px;
     margin: 30px;
-    background-color: rgb(8, 8, 9);
-
+    background-color: black;
 }
